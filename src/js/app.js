@@ -4,6 +4,7 @@ const SeedsBox = document.querySelector("#SeedsBox");
 const dealProductBox = document.querySelector("#dealProducts");
 const blogBox = document.querySelector("#blogBox");
 const featureBox = document.querySelector("#featureBox");
+const relatedBox = document.querySelector("#relatedBox");
 
 const axiosInstance = axios.create({
     baseURL: "http://localhost:3000/",
@@ -34,8 +35,9 @@ const closeCart = () => {
     cartOverlay.classList.remove("active");
 };
 
-// closeCartBtn.addEventListener("click", closeCart);
-// cartOverlay.addEventListener("click", closeCart);
+
+closeCartBtn && closeCartBtn.addEventListener("click", closeCart);
+cartOverlay && cartOverlay.addEventListener("click", closeCart);
 
 
 
@@ -118,7 +120,9 @@ getApiData("products").then((products) => {
         <div class="col-xl-3">
             <div class="cards">
                 <div class="cards_img">
-                <img src="${item.image}" alt="${item.title}">
+                <a href="../public/detail.html"> <img src="${item.image}" alt="${item.title}"><
+               
+            
                     <div class="hover_img">
                         <img src="${item.hoverImage}" alt="${item.title}">
                     </div>
@@ -369,4 +373,50 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
+getApiData("related").then((related) => {
+    related &&
+        related.forEach((item) => {
+            let render = `
+<div class="col-xl-3">
+    <div class="cards">
+        <div class="cards_img">
+            <a href="../public/detail.html">
+                <img src="${item.image}" alt="${item.title}">
+            </a>
+            <div class="hover_img">
+                <img src="${item.hoverImage}" alt="${item.title}">
+            </div>
+            <div class="hover_icon">
+                <i class="ri-eye-line"></i>
+                <i class="ri-shopping-bag-line"></i>
+                <i class="ri-heart-line"></i>
+            </div>
+        </div>
+        <div class="cards_body">
+            <div class="cards_title">
+                <a href="#">${item.title}</a>
+            </div>
+            <div class="price">
+                <span class="current">$${item.price}</span>
+            </div>
+            <div class="cards_color">
+                <ul>
+                    ${item.colors.map(color => `<li style="background-color:${color}"></li>`).join("")}
+                </ul>
+            </div>
+            <div class="cards_size">
+                <ul>
+                    ${item.sizes.map(size => `<li><a href="#">${size}</a></li>`).join("")}
+                </ul>
+            </div>
+            <div class="cards_btn">
+                <button class="add-to-cart-btn">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+`;
+            relatedBox.innerHTML += render;
+        });
+});
 

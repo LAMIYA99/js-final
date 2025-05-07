@@ -1,0 +1,69 @@
+#about {
+    margin: 100px 0;
+  
+    .about_text {
+      .about_title {
+        h1 {
+          font-family: "Unbounded", Sans-serif;
+          font-size: 40px;
+          font-weight: 500;
+          text-transform: capitalize;
+          line-height: 50px;
+          color: #111111;
+          text-align: center;
+        }
+  
+        p {
+          margin: 50px 0;
+          text-align: center;
+          font-family: "Hanken Grotesk", Sans-serif;
+          font-size: 19px;
+          font-weight: 300;
+          line-height: 2;
+          color: #111111;
+  
+        }
+      }
+    }
+  
+    .about_img {
+      margin: 100px 0;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    }
+    .about_right{
+      margin: 100px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .right_text{
+        h1{
+          font-family: "Unbounded", Sans-serif;
+          font-size: 40px;
+          font-weight: 500;
+          text-transform: capitalize;
+          line-height: 50px;
+          color: #111111;
+        }
+  
+      }
+      .about_right_text{
+        ul{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          li{
+            font-family: "HankenGrotesk-Light", Sans-serif;
+            font-size: 19px;
+            color: #111111;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
