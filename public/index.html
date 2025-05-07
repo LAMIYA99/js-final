@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/remixicon/fonts/remixicon.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../src/scss/style.css">
+</head>
+<body>
+    <div class="loginModals">
+        <div class="signin">
+            <div class="closelogin">
+                <button><i class="ri-close-large-line"></i></button>
+            </div>
+            <div class="head-text">
+                <h2><i class="ri-user-3-line"></i></i>Sign in</h2>
+            </div>
+            <div class="content">
+                <form id="loginForm">
+                    <label for="text">Username</label>
+                    <input type="text" class="email" />
+                    <label for="password">Password</label>
+                    <input type="password" class="password" />
+                    <div class="remember">
+                        <ul>
+                            <li><input type="checkbox" /></li>
+                            <li>Remember me</li>
+                        </ul>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" id="submit">Login</button>
+                        <p>Lost your password?</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="cartSidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Cart</h3>
+            <span class="close-cart"></span>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-footer">
+            <p><span id="cartSubtotal">0.00</span></p>
+            <button class="view-cart">View Cart</button>
+            <button class="checkout">Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+  
+    <header>
+        <nav>
+            <div class="container">
+                <div class="head">
+                    <div class="head_img">
+                        <img src="https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Logo-1.svg"
+                            alt="">
+                    </div>
+                    <div class="head_catagories">
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="">Our Story</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="../public/product.html">Products</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="../public/blog.html">Blog</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="">Contacts</a>
+                            </li>
+
+                            <li>
+                                <i class="ri-search-line"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="head_icon">
+                        <ul>
+                            <li class="user-login-btn"><i class="ri-user-3-line"></i></li>
+                            <li><i class="ri-fire-line"></i></li>
+                        </ul>
+                        <div class="position_icon">
+                            <i class="ri-shopping-bag-line"><span>0</span></i>
+                            <p>$0.00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7">
+                        <div class="left">
+                            <div class="left_head_text">
+                                <h1>Bringing the beauty of nature
+                                    to your doorstep</h1>
+                            </div>
+                            <div class="left_img_text">
+                                <div class="left_img">
+                                    <img src="https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-4.jpg"
+                                        alt="">
+                                </div>
+                                <div class="left_side">
+                                    <div class="left_text">
+                                        <p>
+                                            We are your one-stop destination for things related
+                                            to plants & gardening, providing you with high-quality
+                                            products and expert advice to help you. </p>
+                                    </div>
+                                    <div class="left_btn">
+                                        <button>Shop Collection</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 swiper-content">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img
+                                        src="https://images.pexels.com/photos/14363472/pexels-photo-14363472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                        alt=""></div>
+                                <div class="swiper-slide"><img
+                                        src="https://images.pexels.com/photos/4976337/pexels-photo-4976337.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                                        alt=""></div>
+                                <div class="swiper-slide"><img
+                                        src="https://images.pexels.com/photos/14363472/pexels-photo-14363472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                        alt=""></div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="product">
+            <div class="container">
+                <div class="head_text">
+                    <h1>Hello, plant lovers.</h1>
+                </div>
+                <div class="head_catagories">
+                    <ul>
+                        <li>
+                            <a href="">All</a>
+                        </li>
+                        <li>
+                            <a href="">Indoor Plants</a>
+                        </li>
+                        <li>
+                            <a href="">Outdoor Plants</a>
+                        </li>
+                        <li>
+                            <a href="">Herbs + Veggies</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row" id="ProductBox">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="pruning">
+        </section>
+
+
+        <section id="collection">
+            <div class="container">
+                <h1>Our Latest Collection</h1>
+                <div class="row" id="CollectionBox">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="month">
+            <div class="container">
+                <h1>Deal of the Month</h1>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="cards">
+                            <div class="cards_img">
+                                <img src="https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-4-1.jpg"
+                                    alt="">
+                            </div>
+                            <div class="cards_body">
+                                <div class="body_title">
+                                    <h2>Philodendron Brasil</h2>
+                                    <p> We’ve gathered some of our most popular plants into sets to suit all types of
+                                        plant parent who need a bit of extra inspiration.</p>
+                                </div>
+                                <div class="cards_hours">
+                                    <ul>
+                                        <li>75</li>
+                                        <li>16</li>
+                                        <li>28</li>
+                                        <li>05</li>
+                                    </ul>
+                                </div>
+                                <div class="cards_btn">
+                                    <button>View All Products</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row row-cols-xl-2" id="dealProducts">
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section id="zero">
+            <div class="zero_img">
+                <img src="https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-5.jpg"
+                    alt="">
+            </div>
+        </section>
+
+        <section id="seeds">
+            <h1>Seeds of thoughts</h1>
+            <div class="container">
+                <div class="row" id="SeedsBox">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="demo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="cards_left">
+                            <div class="left_text">
+                                <div class="left_title">
+                                    <h1>XStore Elementor Plants Store Demo</h1>
+                                    <p>Every plant purchase is a gift that keeps on giving. Earn coins, redeem and much
+                                        more for exclusive discounts.</p>
+                                </div>
+                                <div class="left_btn">
+                                    <button class="learn">Learn More</button>
+                                    <button class="refer">Refer a Friend</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="cards_right">
+                            <div class="right_img">
+                                <img src="https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-6.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="slider">
+            <div class="slider_box">
+                <div class="item">
+                    <h4>
+                        <span>Free Shipping on order above $99 </span>
+                    </h4>
+                </div>
+                <div class="item">
+                    <h4>
+                        <span>Cash on Delivery Available </span>
+                    </h4>
+                </div>
+                <div class="item">
+                    <h4>
+                        <span>Guaranteed Return & Replacement</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="slider_box">
+                <div class="item">
+                    <h4>
+                        <span>Free Shipping on order above $99 </span>
+                    </h4>
+                </div>
+                <div class="item">
+                    <h4>
+                        <span>Cash on Delivery Available </span>
+                    </h4>
+                </div>
+                <div class="item">
+                    <h4>
+                        <span>Guaranteed Return & Replacement</span>
+                    </h4>
+                </div>
+
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+               <div class="footer_text">
+                   <div class="section">
+                     <h4>About Us</h4>
+                     <ul>
+                       <li><a href="#">Our Story</a></li>
+                       <li><a href="#">Contact Us</a></li>
+                       <li><a href="#">Careers</a></li>
+                       <li><a href="#">Maintenance</a></li>
+                       <li><a href="#">Own Grown</a></li>
+                       <li><a href="#">Locate Stores</a></li>
+                     </ul>
+                   </div>
+                   <div class="section">
+                     <h4>Customer Care</h4>
+                     <ul>
+                       <li><a href="#">Take The Plant Quiz</a></li>
+                       <li><a href="#">Track Order</a></li>
+                       <li><a href="#">Shipping Policy</a></li>
+                       <li><a href="#">Terms & Conditions</a></li>
+                       <li><a href="#">Privacy Policy</a></li>
+                       <li><a href="#">Refund Policy</a></li>
+                     </ul>
+                   </div>
+                   <div class="section">
+                     <h4>Rewards</h4>
+                     <ul>
+                       <li><a href="#">XStore Offers</a></li>
+                       <li><a href="#">Plant Rewards Club</a></li>
+                       <li><a href="#">XStore Coupons</a></li>
+                     </ul>
+                   </div>
+                   <div class="number">
+                     <h4>Get In Touch</h4>
+                     <ul>
+                       <li><i class="ri-phone-line"></i> +00 1111 222 3333</li>
+                       <li><i class="ri-phone-line"></i> +00 1111 222 3334</li>
+                       <li><i class="ri-phone-line"></i> +00 1111 222 3335</li>
+                       <li><i class="ri-phone-line"></i> support@xstore.com</li>
+                     </ul>
+                   </div>
+                   <div class="section">
+                     <h4>Our Newsletter</h4>
+                     <p>For plant care tips, our featured plant of the week, exclusive offers and discounts.</p>
+                     <input type="email" placeholder="Enter email address">
+                     <div class="social-icons">
+                         <i class="ri-facebook-line"></i>
+                         <i class="ri-twitter-x-line"></i>
+                         <i class="ri-instagram-line"></i>
+                         <i class="ri-youtube-line"></i>
+                         <i class="ri-telegram-2-line"></i>
+                     </div>
+                   </div>
+                 </div>
+            </div>
+             </footer>
+
+    </main>
+
+
+
+
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="../src/js/app.js"></script>
+
+
+</body>
+
+</html>

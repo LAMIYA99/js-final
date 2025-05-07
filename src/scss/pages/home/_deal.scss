@@ -1,0 +1,223 @@
+#dealProducts{
+    .cards {
+      .cards_img {
+          position: relative;
+  
+          &:hover {
+              .hover_img {
+                  opacity: 1;
+                  cursor: pointer;
+              }
+  
+              .hover_icon {
+                  opacity: 1;
+                  transform: translateX(0%);
+              }
+          }
+  
+          img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+          }
+  
+          .hover_img {
+              position: absolute;
+              opacity: 0;
+              inset: 0;
+              transition: 0.2s linear;
+          }
+  
+          .hover_icon {
+              opacity: 0;
+              position: absolute;
+              top: 200px;
+              right: 16px;
+              display: flex;
+              flex-direction: column;
+              transition: 0.4s ease-in-out;
+              transform: translateX(150%);
+  
+              i {
+                  width: 48px;
+                  height: 48px;
+                  color: black;
+                  background-color: white;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 17px;
+  
+                  &:hover {
+                      cursor: pointer;
+                      background-color: #f5f5f5;
+                      transition: .2s ease-in-out;
+                  }
+              }
+          }
+  
+  
+      }
+  
+      .cards_body {
+          margin: 18px 0;
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+  
+          .cards_title {
+              a {
+                  font-size: 16px;
+                  font-family: "Unbounded", Sans-serif;
+                  font-weight: 500;
+                  line-height: 1.6;
+                  color: #111;
+              }
+          }
+  
+          .price {
+              display: flex;
+              gap: 8px;
+              font-family: "Hanken Grotesk", sans-serif;
+              font-weight: 300;
+  
+              .old {
+                  color: #888;
+                  font-size: 19px;
+             
+              }
+  
+            
+          }
+  
+          .cards_color {
+              ul {
+                  display: flex;
+                  gap: 8px;
+                  li{
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+           
+                   
+                    
+                      &:hover {
+                          border: 1px solid #000;
+                          transform: scale(1.1);
+                          transition: 0.2s;
+                      }
+                  }
+              }
+  
+              .green {
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  background-color: #d5e61a;
+  
+                  &:hover {
+                      border: 1px solid #888;
+                      transition: 0.3s ease-in-out;
+                  }
+              }
+  
+              .grey {
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  background-color: #636363;
+  
+                  &:hover {
+                      border: 1px solid #888;
+                      transition: 0.3s ease-in-out;
+                  }
+              }
+  
+              .midnight {
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  background-color: #bcc6cd;
+  
+                  &:hover {
+                      border: 1px solid #888;
+                      transition: 0.3s ease-in-out;
+                  }
+              }
+  
+              .pink {
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  background-color: #ebd8be;
+  
+                  &:hover {
+                      border: 1px solid #888;
+                      transition: 0.3s ease-in-out;
+                  }
+              }
+  
+              .red {
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  background-color: #e75d52;
+  
+                  &:hover {
+                      border: 1px solid #888;
+                      transition: 0.3s ease-in-out;
+                  }
+              }
+          }
+  
+          .cards_size {
+              ul {
+                  display: flex;
+                  gap: 10px;
+  
+                  li {
+                      padding: 4px;
+                      border: 1px solid #b6b3b3;
+                      border-radius: 20px;
+  
+                      &:hover {
+                          border: 1px solid #636363;
+                          transition: 0.3s ease-in-out;
+                      }
+  
+                      a {
+                          font-size: 10px;
+                          color: #111;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+  
+                      }
+                  }
+              }
+          }
+          .cards_btn{
+              button{
+                  font-family: "Hanken Grotesk", sans-serif;
+                  margin: 8px 0;
+                padding: 16px 106px;
+                color: #111111;
+                background-color: #ffffff;
+                border: 1px solid #214332;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 17px;
+                &:hover{
+                  background-color: #214332;
+                  color: white;
+                  transition: 0.2s ease-in-out;
+  
+                }
+              }
+          }
+  
+      }
+  } 
+  }

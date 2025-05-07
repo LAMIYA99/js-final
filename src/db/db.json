@@ -1,0 +1,270 @@
+{
+     "products": [
+      {
+        "id": 1,
+        "title": "Calathea Pin-Stripe Plant",
+        "price": 219.99,
+        "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-4.1-768x884.jpg",
+        "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-4.2-768x884.jpg",
+        "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+        "sizes": ["Medium", "Small", "Tall"],
+        "category": "Indoor Plants",
+        "inCart": false
+      },
+      {
+        "id": 2,
+        "title": "Chinese Evergreen Crete",
+        "price": 129.99,
+        "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-1.1.jpg",
+        "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-1.2.jpg",
+        "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+        "sizes": ["Medium", "Small", "Tall"],
+        "category": "Indoor Plants",
+        "inCart": false
+      },
+      {
+        "id": 3,
+        "title": "Cret Plant",
+        "price": 119.99,
+        "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-2.1.jpg",
+        "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-2.2.jpg",
+        "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+        "sizes": ["Medium", "Small", "Tall"],
+        "category": "Indoor Plants",
+        "inCart": false
+      },
+      {
+        "id": 4,
+        "title": "Terrarium Cheese Planted",
+        "price": 210.99,
+        "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.1.jpg",
+        "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.2.jpg",
+        "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+        "sizes": ["Medium", "Small", "Tall"],
+        "category": "Indoor Plants",
+        "inCart": false
+      }
+     ],
+     
+     "latestCollection": [
+      {
+        "id": 1,
+        "title": "Air Purifying Plants",
+        "description": "Breathe easy with houseplants that clean the air in your house.",
+        "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-4-quamqh4ffgd8tn642k59n0gadlh39kemxu6uim5b84.jpg",
+        "category": "latest"
+      },
+      {
+        "id": 2,
+        "title": "Air Purifying Plants",
+        "description": "Breathe easy with houseplants that clean the air in your house.",
+        "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-1-2.jpg",
+        "category": "latest"
+      },
+      {
+        "id": 3,
+        "title": "Air Purifying Plants",
+        "description": "Breathe easy with houseplants that clean the air in your house.",
+        "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-1-2.jpg",
+        "category": "latest"
+      }
+     ],
+     
+     "seedsCollection": [
+        {
+          "id": 1,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-4-quamqh4ffgd8tn642k59n0gadlh39kemxu6uim5b84.jpg",
+          "category": "Air-Purifier",
+          "title": "Plant parenthood: A beginner’s guide to caring for indoor plants",
+          "date": "2024-07-08"
+        },
+        {
+          "id": 2,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-1-quamqf8r1sao6f8udjc0i0xd6tqcu6769kvvk283kk.jpg",
+          "category": "Gardening",
+          "title": "The ultimate guide to indoor plant care: most exaggeration tips",
+          "date": "2024-03-01"
+        },
+        {
+          "id": 3,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        }
+      ],
+
+      "blogCollection": [
+        {
+          "id": 1,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-4-quamqh4ffgd8tn642k59n0gadlh39kemxu6uim5b84.jpg",
+          "category": "Air-Purifier",
+          "title": "Plant parenthood: A beginner’s guide to caring for indoor plants",
+          "date": "2024-07-08"
+        },
+        {
+          "id": 2,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-1-quamqf8r1sao6f8udjc0i0xd6tqcu6769kvvk283kk.jpg",
+          "category": "Gardening",
+          "title": "The ultimate guide to indoor plant care: most exaggeration tips",
+          "date": "2024-03-01"
+        },
+        {
+          "id": 3,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        },
+        {
+          "id": 4,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        },
+        {
+          "id": 5,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        },
+        {
+          "id": 6,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        },
+        {
+          "id": 7,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        },
+        {
+          "id": 8,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        },
+        {
+          "id": 9,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/elementor/thumbs/Image-post-5-quamqi29maej594qx2jw7i7qyzcgh9id9yubzw3x1w.jpg",
+          "category": "Ambiance",
+          "title": "Top 9 trending plants for modern homes creating oxygen air-purify",
+          "date": "2024-04-13"
+        }
+      ],
+
+      "featured": [
+        {
+          "id": 1,
+          "title": "Calathea Pin-Stripe Plant",
+          "price": 219.99,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-4.1-768x884.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-4.2-768x884.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+        {
+          "id": 2,
+          "title": "Terrarium Cheese Planted",
+          "price": 210.99,
+          "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-7.1-min-768x884.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+      
+        {
+          "id": 3,
+          "title": "Chinese Evergreen Crete",
+          "price": 129.99,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-1.1.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-1.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+        {
+          "id": 4,
+          "title": "Cret Plant",
+          "price": 119.99,
+          "image": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-2.1.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-2.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+      
+       
+        {
+          "id": 5,
+          "title": "Terrarium Cheese Planted",
+          "price": 210.99,
+          "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-5.1-768x884.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+        {
+          "id": 6,
+          "title": "Terrarium Cheese Planted",
+          "price": 210.99,
+          "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-6.1-min-768x884.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+        {
+          "id": 7,
+          "title": "Terrarium Cheese Planted",
+          "price": 210.99,
+          "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-11.1-min-768x884.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+        {
+          "id": 8,
+          "title": "Terrarium Cheese Planted",
+          "price": 210.99,
+          "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-8.1-min-768x884.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        },
+        {
+          "id": 9,
+          "title": "Terrarium Cheese Planted",
+          "price": 210.99,
+          "image": "https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-10.1-min-768x884.jpg",
+          "hoverImage": "https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-product-3.2.jpg",
+          "colors": ["#c3d600", "#e7e7e7", "#bfbfbf", "#e89b8b", "#d1d1d1"],
+          "sizes": ["Medium", "Small", "Tall"],
+          "category": "Indoor Plants",
+          "inCart": false
+        }
+      ]
+    }
+    
+  
+  

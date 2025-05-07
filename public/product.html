@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/remixicon/fonts/remixicon.css">
+    <link rel="stylesheet" href="../src/scss/style.css">
+</head>
+
+<body>
+    <div class="loginModals">
+        <div class="signin">
+            <div class="closelogin">
+                <button><i class="ri-close-large-line"></i></button>
+            </div>
+            <div class="head-text">
+                <h2><i class="ri-user-3-line"></i></i>Sign in</h2>
+            </div>
+            <div class="content">
+                <form id="loginForm">
+                    <label for="text">Username</label>
+                    <input type="text" class="email" />
+                    <label for="password">Password</label>
+                    <input type="password" class="password" />
+                    <div class="remember">
+                        <ul>
+                            <li><input type="checkbox" /></li>
+                            <li>Remember me</li>
+                        </ul>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" id="submit">Login</button>
+                        <p>Lost your password?</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="head">
+                    <div class="head_img">
+                        <img src="https://xstore.b-cdn.net/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Logo-1.svg"
+                            alt="">
+                    </div>
+                    <div class="head_catagories">
+                        <ul>
+                            <li>
+                                <a href="/public/index.html">Home</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="">Our Story</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="">Products</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="../public/blog.html">Blog</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="">Contacts</a>
+                            </li>
+
+                            <li>
+                                <i class="ri-search-line"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="head_icon">
+                        <ul>
+                            <li class="user-login-btn"><i class="ri-user-3-line"></i></li>
+                            <li><i class="ri-fire-line"></i></li>
+                        </ul>
+                        <div class="position_icon">
+                            <i class="ri-shopping-bag-line"><span>0</span></i>
+                            <p>$0.00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="head_img">
+                <img src="https://xstore.8theme.com/elementor3/plants-store/wp-content/uploads/sites/8/2024/09/Image-3.jpg"
+                    alt="">
+                <div class="head_text">
+                    <a href="../public/index.html">Home</a>
+                    <h1>Shop</h1>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+
+    </header>
+
+    <section id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="left_filter">
+                        <h4><i class="ri-filter-line"></i>Filters</h4>
+
+                        <!-- Filter By Categories -->
+                        <div class="categories">
+                            <h5>Filter By Categories</h5>
+                            <input type="text" placeholder="Find a category">
+                            <ul>
+                                <li><input type="checkbox"> Easy Care Plants (10)</li>
+                                <li><input type="checkbox"> Air Purifying Plants (5)</li>
+                                <li><input type="checkbox"> Flowering Plants (5)</li>
+                                <li><input type="checkbox"> Hanging Plants (5)</li>
+                                <li><input type="checkbox"> Pet Friendly Plants (4)</li>
+                                <li><input type="checkbox"> Rare & Unusual Plants (5)</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="categories">
+    
+                            <ul>
+                                <li><input type="checkbox"> Easy Care Plants (10)</li>
+                                <li><input type="checkbox"> Air Purifying Plants (5)</li>
+                                <li><input type="checkbox"> Flowering Plants (5)</li>
+                                <li><input type="checkbox"> Hanging Plants (5)</li>
+                                <li><input type="checkbox"> Pet Friendly Plants (4)</li>
+                                <li><input type="checkbox"> Rare & Unusual Plants (5)</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="categories">
+    
+                            <ul>
+                                <li><input type="checkbox"> Easy Care Plants (10)</li>
+                                <li><input type="checkbox"> Air Purifying Plants (5)</li>
+                                <li><input type="checkbox"> Flowering Plants (5)</li>
+                                <li><input type="checkbox"> Hanging Plants (5)</li>
+                                <li><input type="checkbox"> Pet Friendly Plants (4)</li>
+                                <li><input type="checkbox"> Rare & Unusual Plants (5)</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <!-- Filter By Price -->
+                        <div class="filter-price">
+                            <h5>Filter By Price</h5>
+                            <ul>
+                                <li><input type="checkbox"> $0 - $499.00</li>
+                                <li><input type="checkbox"> $499.00 - $999.00</li>
+                                <li><input type="checkbox"> $999.00 - $1,999.00</li>
+                                <li><input type="checkbox"> $1,999.00 - $2,999.00</li>
+                            </ul>
+                            <div class="price_catagory">
+                                <input type="text" placeholder="Min">
+                                <input type="text" placeholder="Max">
+                                <button>Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9">
+                    <div class="row row-cols-xl-3" id="featureBox">
+
+                    </div>
+                    <div class="product_btn">
+                        <h4>Showing 9 of 11 items</h4>
+                        <span></span>
+                        <button>LOAD <br> MORE</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="slider">
+        <div class="slider_box">
+            <div class="item">
+                <h4>
+                    <span>Free Shipping on order above $99 </span>
+                </h4>
+            </div>
+            <div class="item">
+                <h4>
+                    <span>Cash on Delivery Available </span>
+                </h4>
+            </div>
+            <div class="item">
+                <h4>
+                    <span>Guaranteed Return & Replacement</span>
+                </h4>
+            </div>
+        </div>
+        <div class="slider_box">
+            <div class="item">
+                <h4>
+                    <span>Free Shipping on order above $99 </span>
+                </h4>
+            </div>
+            <div class="item">
+                <h4>
+                    <span>Cash on Delivery Available </span>
+                </h4>
+            </div>
+            <div class="item">
+                <h4>
+                    <span>Guaranteed Return & Replacement</span>
+                </h4>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer_text">
+                <div class="section">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                        <li><a href="#">Own Grown</a></li>
+                        <li><a href="#">Locate Stores</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="#">Take The Plant Quiz</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h4>Rewards</h4>
+                    <ul>
+                        <li><a href="#">XStore Offers</a></li>
+                        <li><a href="#">Plant Rewards Club</a></li>
+                        <li><a href="#">XStore Coupons</a></li>
+                    </ul>
+                </div>
+                <div class="number">
+                    <h4>Get In Touch</h4>
+                    <ul>
+                        <li><i class="ri-phone-line"></i> +00 1111 222 3333</li>
+                        <li><i class="ri-phone-line"></i> +00 1111 222 3334</li>
+                        <li><i class="ri-phone-line"></i> +00 1111 222 3335</li>
+                        <li><i class="ri-phone-line"></i> support@xstore.com</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h4>Our Newsletter</h4>
+                    <p>For plant care tips, our featured plant of the week, exclusive offers and discounts.</p>
+                    <input type="email" placeholder="Enter email address">
+                    <div class="social-icons">
+                        <i class="ri-facebook-line"></i>
+                        <i class="ri-twitter-x-line"></i>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-youtube-line"></i>
+                        <i class="ri-telegram-2-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../src/js/app.js"></script>
+
+</body>
+
+</html>

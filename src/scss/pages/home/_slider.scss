@@ -1,0 +1,47 @@
+#slider {
+    overflow: hidden;
+    background-color: #e8f3e4;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+  
+    .slider_box {
+      display: flex;
+      flex-wrap: nowrap; 
+      animation: slider 40s linear infinite;
+      gap: 60px;
+      width: max-content;
+  
+      .item {
+        display: flex;
+        gap: 40px;
+        flex-shrink: 0; 
+        background-color: #e8f3e4;
+  
+        h4 {
+          font-family: "Hanken Grotesk", Sans-serif;
+          font-size: 19px;
+          line-height: 25px;
+          font-weight: 400;
+          color: #214332;
+          padding: 23px 0px;
+          span{
+            display: flex;
+            gap: 100px;
+          }
+          
+
+        }
+     
+      }
+    }
+  }
+  
+  @keyframes slider {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }

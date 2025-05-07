@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import "../scss/base/reset";
+@import "../scss/layout/nav";
+@import "../scss/pages/home/banner";
+@import "../scss/pages/home/product";
+@import "../scss/pages/home/collection";
+@import "../scss/pages/home/month";
+@import "../scss/pages/home/body";
+@import "../scss/pages/home/zero";
+@import "../scss/pages/home/seeds";
+@import "../scss/pages/home/demo.right";
+@import "../scss/pages/home/demo.left";
+@import "../scss/pages/home/slider";
+@import "../scss/pages/blog/our.blog";
+@import "../scss/pages/blog/blog.cards";
+@import "../scss/pages/product/product.nav";
+@import "../scss/pages/product/product";
+@import "../scss/layout/footer";
+@import "../scss/pages/product/product.btn";
+@import "../scss/pages/home/deal";
+@import "../scss/pages/home/add.too";
+
+body {
+  background-color: #F5F5ED9C;
+}
+
+
+#detail {
+
+  .detail_left {
+    .left_img {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .right_text {
+    .right_title {
+      h1 {
+        font-family: "Hanken Grotesk", Sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 52px;
+        color: #111111;
+      }
+      p{
+        font-family: "Hanken Grotesk", Sans-serif;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.4;
+        color: #111111;
+      }
+    }
+  }
+}

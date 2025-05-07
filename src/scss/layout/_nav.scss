@@ -1,0 +1,100 @@
+
+header {
+    font-family: "Hanken Grotesk", sans-serif;
+ 
+  
+
+    nav {
+     
+        margin: 60px 0;
+   
+
+        .head {
+            display: flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-between;
+
+            .head_catagories {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                ul {
+                    display: flex;
+                    gap: 20px;
+
+                    li {
+                        font-size: 15px;
+                        color: #11111145;
+                    }
+
+                    a {
+                        font-size: 18px;
+                        color: #111111;
+                    }
+
+                    i {
+                        font-size: 22px;
+                        color: #111111;
+                    }
+                }
+            }
+
+            .head_icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+
+                ul {
+                    display: flex;
+                    gap: 6px;
+
+                    li {
+                        i {
+                            font-size: 26px;
+                        }
+                    }
+                }
+
+                .position_icon {
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 24px;
+                    background-color: #E5E9CD;
+                    padding: 10px 12px 8px 10px;
+                    border-radius: 28px;
+                    color: #111111;
+
+                    p {
+                        padding: 0;
+                        margin: 0;
+                        font-size: 18px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                    }
+
+                    i {
+                        position: relative;
+
+                        span {
+                            position: absolute;
+                            top: -5px;
+                            right: 2px;
+                            background-color: #214332;
+                            border-radius: 50px;
+                            font-size: 20px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
